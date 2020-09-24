@@ -1,0 +1,70 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+header
+{
+	background-image: url(task%20img.jpg);
+	height: 100vh;
+	background-size: cover;
+	background position: center;
+}
+
+.nav-bar
+{
+	background: rbg(0,0,0,0.5);
+	height: 70px;
+
+
+}
+
+.menu
+{
+	float: right;
+	list-style: none;
+	margin: 20px;
+}
+
+.menu li{
+	display: inline-block;
+	margin: 10px 5px;
+}
+
+.menu li a{
+	text-decoration: none;
+	color: red;
+	padding: 5px 10px;
+	font-family: inherit;
+	letter-spacing: 2px;
+	border: 1px solid black;
+
+}
+
+
+.menu li a:hover{
+	background: grey;
+	transition: .4s;
+	color: pink;
+}
+
+
+.welcome
+{
+	position: absolute;
+	text-align-last: center;
+	font-family: cursive;
+	color: darkred;
+}
+
+.welcome h1
+{
+	font-size: 42px;
+	margin: 25px;
+}
+
+
+.section{
+    font-display: swap;
+}
